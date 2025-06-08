@@ -1,12 +1,16 @@
 {
   "6281327393959": {
-    "name": "aristore",
-    "password": "Ari123Ok"
+    "name": "-",
+    "password": "-"
   },
   "6288976654724": {
-    "name": "aristore2",
-    "password": "Ari123Ok"
+    "name": "-",
+    "password": "-"
   },
+  "6287731590560": {
+    "name": "-",
+    "password": "-"
+  }
   "6283823209891": {
     "name": "Rifki",
     "password": "rifki200420"
@@ -22,9 +26,5 @@
   "6283830803474": {
     "name": "Kemet",
     "password": "MetSStore"
-  },
-  "6287731590560": {
-    "name": "-",
-    "password": "-"
   }
 }
