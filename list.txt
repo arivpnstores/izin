@@ -1,22 +1,155 @@
-🛒 BELI PRODUK DIGITAL OTOMATIS!  
-🔥 24 Jam Nonstop • Gak Ngantri • Gak Ribet  
+ ———————————————————————————————————————————————
+             .::. ARISCTUNNEL V4 .::.
+ ———————————————————————————————————————————————
+ ———————————————————————————————————————————————
+                       SSH
+ ———————————————————————————————————————————————
+  SSH OPENVPN
+ ———————————————————————————————————————————————
+ Remark      : free
+ Password    : 123
+ Limit Ip    : 0 Devic
+ Domain      : bansos.serverpremium.web.id
+ ISP         : DigitalOcean, LLC
+ OpenSSH     : 443, 80, 22
+ Port UDP    : 1-65535
+ SSH WS      : 80,8080,8880,2082
+ SSL/TLS     : 443
+ OVPN UDP    : 2200
+ ———————————————————————————————————————————————
+ Port 80     : bansos.serverpremium.web.id:80@free:123
+ Port 443    : bansos.serverpremium.web.id:443@free:123
+ Udp Custom  : bansos.serverpremium.web.id:1-65535@free:123
+ OpenVpn     : https://bansos.serverpremium.web.id:81/
+ Account     : https://bansos.serverpremium.web.id:81/ssh-free.txt
+ ———————————————————————————————————————————————
+ Payload WS  : GET / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]
+ ———————————————————————————————————————————————
+ Payload TLS : GET wss://bansos.serverpremium.web.id/ HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]
+ ———————————————————————————————————————————————
+ Payload ENCD: HEAD / HTTP/1.1[crlf]Host: Masukan_Bug[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/ 1[crlf][crlf]
+ ———————————————————————————————————————————————
+ Days in    : 7 Day
+ Expiry in  : 31 Aug, 2025
+ ———————————————————————————————————————————————
+          Terimakasih sudah menggunakan-
+         Script Credit By ARISCTUNNEL V4
+ ———————————————————————————————————————————————
+ Press Enter for Back to Manage
 
-📱 VPN  
-➡️ Auto Order: https://t.me/ARI_VPN_STORE_bot  
+ ———————————————————————————————————————————————
+             .::. ARISCTUNNEL V4 .::.
+ ———————————————————————————————————————————————
 
-🚀 ARTUN VPN PREMIUM  
-🔑 Untuk Inject paket Mode SSH
-➡️ http://donload.serverpremium.web.id/  
+ VMESS XRAY
 
-⚡ SC TUNNEL (ARISCTUNNEL V4)  
-➡️ Auto Order: https://t.me/ARISCTUNNEL_bot  
+ Remarks       : bansos
+ Domain        : bansos.serverpremium.web.id
+ User Quota    : 0 GB
+ User Ip       : 0 IP
+ Port TLS      : 400,8443
+ port WS       : 80,8880,8080,2082
+ Key           : 49635976-fb9f-405f-8349-eb534b389e47
+ Localtions    : Singapore
+ ISP           : DigitalOcean, LLC
+ AlterId       : 0
+ Security      : auto
+ Network       : ws
+ Path          : /vmess
+ Dynamic Path  : yourbug/vmess
+ ServiceName   : vmess-grpc
 
-⚡ AUTO REBUILD Ubuntu 20.04 LTS  
-➡️ Auto Order: https://t.me/AUTOREINSTALL_bot  
+ ———————————————————————————————————————————————
+ Link TLS      : vmess://eyAidiI6ICIyIiwgInBzIjogImJhbnNvcyIsICJhZGQiOiAiYmFuc29zLnNlcnZlcnByZW1pdW0ud2ViLmlkIiwgInBvcnQiOiAiNDQzIiwgImlkIjogIjQ5NjM1OTc2LWZiOWYtNDA1Zi04MzQ5LWViNTM0YjM4OWU0NyIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvdm1lc3MiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiYmFuc29zLnNlcnZlcnByZW1pdW0ud2ViLmlkIiwgInRscyI6ICJ0bHMiIH0K
+ ———————————————————————————————————————————————
+ Link WS       : vmess://eyAidiI6ICIyIiwgInBzIjogImJhbnNvcyIsICJhZGQiOiAiYmFuc29zLnNlcnZlcnByZW1pdW0ud2ViLmlkIiwgInBvcnQiOiAiODAiLCAiaWQiOiAiNDk2MzU5NzYtZmI5Zi00MDVmLTgzNDktZWI1MzRiMzg5ZTQ3IiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi92bWVzcyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJiYW5zb3Muc2VydmVycHJlbWl1bS53ZWIuaWQiLCAidGxzIjogIm5vbmUiIH0K
+ ———————————————————————————————————————————————
+ Link GRPC     : vmess://eyAidiI6ICIyIiwgInBzIjogImJhbnNvcyIsICJhZGQiOiAiYmFuc29zLnNlcnZlcnByZW1pdW0ud2ViLmlkIiwgInBvcnQiOiAiNDQzIiwgImlkIjogIjQ5NjM1OTc2LWZiOWYtNDA1Zi04MzQ5LWViNTM0YjM4OWU0NyIsICJhaWQiOiAiMCIsICJuZXQiOiAiZ3JwYyIsICJwYXRoIjogInZtZXNzLWdycGMiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiYmFuc29zLnNlcnZlcnByZW1pdW0ud2ViLmlkIiwgInRscyI6ICJ0bHMiIH0K
+ ———————————————————————————————————————————————
+ OpenClash     : https://bansos.serverpremium.web.id:81/vmess-bansos.txt
+ ———————————————————————————————————————————————
+ Days in    : 7 Day
+ Expiry     : 31 Aug, 2025
+ ———————————————————————————————————————————————
+ ———————————————————————————————————————————————
+          Terimakasih sudah menggunakan-
+         Script Credit By ARISCTUNNEL V4
+ ———————————————————————————————————————————————
+ Press Enter for Back to Manage
 
-⚡ AUTO INSTALL ARISCTUNNEL V4  
-➡️ Auto Order: https://t.me/INSTALL_ARISCTUNNEL_V4_bot  
+ ———————————————————————————————————————————————
+             .::. ARISCTUNNEL V4 .::.
+ ———————————————————————————————————————————————
+ ———————————————————————————————————————————————
+             .::. ARISCTUNNEL V4 .::.
+ ———————————————————————————————————————————————
+ VLESS XRAY
+ ———————————————————————————————————————————————
+ Remarks     : bansos2
+ Domain      : bansos.serverpremium.web.id
+ User Quota  : 0 GB
+ User Ip     : 0 IP
+ port TLS    : 443-900
+ port WS     : 80,8880,8080
+ User ID     : e6433527-c331-4d37-81bd-f6b1c193e050
+ Locations.  : Singapore
+ ISP         : DigitalOcean, LLC
+ Encryption  : none
+ Path TLS    : /vless
+ ServiceName : vless-grpc
+ ———————————————————————————————————————————————
+ Link TLS    : vless://e6433527-c331-4d37-81bd-f6b1c193e050@bansos.serverpremium.web.id:443?path=/vless&security=tls&encryption=none&type=ws#bansos2
+ ———————————————————————————————————————————————
+ Link NTLS   : vless://e6433527-c331-4d37-81bd-f6b1c193e050@bansos.serverpremium.web.id:80?path=/vless&encryption=none&type=ws#bansos2
+ ———————————————————————————————————————————————
+ Link GRPC   : vless://e6433527-c331-4d37-81bd-f6b1c193e050@bansos.serverpremium.web.id:443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=vless-grpc&sni=bansos.serverpremium.web.id#bansos2
+ ———————————————————————————————————————————————
+ OpenClash   : https://bansos.serverpremium.web.id:81/vless-bansos2.txt
+ ———————————————————————————————————————————————
+ Days in    : 7 Day
+ Expiry     : 31 Aug, 2025
+ ———————————————————————————————————————————————
+          Terimakasih sudah menggunakan-
+         Script Credit By ARISCTUNNEL V4
+ ———————————————————————————————————————————————
+ Press Enter for Back to Manage
 
-📞 ADMIN (BUTUH BANTUAN)  
-👉 WhatsApp: https://wa.me/6281327393959  
-👉 Telegram: https://t.me/RAJA_VPN_STORE  
+
+ ———————————————————————————————————————————————
+             .::. ARISCTUNNEL V4 .::.
+ ———————————————————————————————————————————————
+ ———————————————————————————————————————————————
+                       TROJAN
+ ———————————————————————————————————————————————
+ TROJAN
+
+ Remarks      : bansos3
+ Host/IP      : bansos.serverpremium.web.id
+ User Quota   : 0 GB
+ User Ip      : 0 IP
+ Port NTLS    : 443-900
+ port WS      : 80,8880,8080
+ Key          : 73cf1880-b41d-445c-a6de-adc8c676fbba
+ ISP          : DigitalOcean, LLC
+ Path         : /trojan-ws
+ ServiceName  : trojan-grpc
+ ———————————————————————————————————————————————
+ Link TLS     : trojan://73cf1880-b41d-445c-a6de-adc8c676fbba@bansos.serverpremium.web.id:443?path=%2Ftrojan-ws&security=tls&host=bansos.serverpremium.web.id&type=ws&sni=bansos.serverpremium.web.id#bansos3
+ ———————————————————————————————————————————————
+ Link NTLS    : trojan://73cf1880-b41d-445c-a6de-adc8c676fbba@bansos.serverpremium.web.id:80?path=%2Ftrojan-ws&security=none&host=bansos.serverpremium.web.id&type=ws#bansos3
+ ———————————————————————————————————————————————
+ Link GRPC    : trojan://73cf1880-b41d-445c-a6de-adc8c676fbba@bansos.serverpremium.web.id:443?mode=gun&security=tls&type=grpc&serviceName=trojan-grpc&sni=bansos.serverpremium.web.id#bansos3
+ ———————————————————————————————————————————————
+ OpenClash    : https://bansos.serverpremium.web.id:81/trojan-bansos3.txt
+ ———————————————————————————————————————————————
+ Days in     : 7 Day
+ Expiry in   : 31 Aug, 2025
+ ———————————————————————————————————————————————
+          Terimakasih sudah menggunakan-
+         Script Credit By ARISCTUNNEL V4
+ ———————————————————————————————————————————————
+ Press Enter for Back to Manage
+
+
+
+
