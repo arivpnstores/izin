@@ -1,0 +1,73 @@
+———————————————————————————————————————————————
+            .::. ARISCTUNNEL V10 .::.
+ ———————————————————————————————————————————————
+  SSH OPENVPN
+ ———————————————————————————————————————————————
+ Remark      : free 
+ Password    : trial 
+ Limit Ip    : 0 Devic 
+ Domain      : test.serverpremium.web.id 
+ ISP         : DigitalOcean, LLC  
+ OpenSSH     : 443, 80, 22 
+ Port UDP    : 1-65535 
+ SSH WS      : 80,8080,8880,2082 
+ SSL/TLS     : 443 
+ OVPN UDP    : 2200 
+ ———————————————————————————————————————————————
+ Port 80     : test.serverpremium.web.id:80@free:trial 
+ Port 443    : test.serverpremium.web.id:443@free:trial 
+ Udp Custom  : test.serverpremium.web.id:1-65535@free:trial
+ OpenVpn     : https://test.serverpremium.web.id:81/ 
+ Account     : https://test.serverpremium.web.id:81/ssh-free.txt 
+ ———————————————————————————————————————————————
+ Payload WS  : GET / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]
+ ———————————————————————————————————————————————
+ Payload TLS : GET wss://test.serverpremium.web.id/ HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]
+ ———————————————————————————————————————————————
+ Payload ENCD: HEAD / HTTP/1.1[crlf]Host: Masukan_Bug[crlf][crlf]PATCH / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf][split]HTTP/ 1[crlf][crlf]
+ ———————————————————————————————————————————————
+ Days in    : 2 Day 
+ Expiry in  : 06 Sep, 2025 
+ ———————————————————————————————————————————————
+          Terimakasih sudah menggunakan- 
+         Script Credit By ARISCTUNNEL V10 
+ ———————————————————————————————————————————————
+Press [ Enter ] to back on menu
+———————————————————————————————————————————————
+            .::. ARISCTUNNEL V10 .::.
+ ———————————————————————————————————————————————
+
+ VMESS XRAY 
+
+ Remarks       : freetriall
+ Domain        : test.serverpremium.web.id
+ User Quota    : 0 GB
+ User Ip       : 0 IP
+ Port TLS      : 400,8443
+ port WS       : 80,8880,8080,2082
+ Key           : 5a9939e5-39f3-4abc-abf7-bf37dfb7a593
+ Localtions    : Singapore
+ ISP           : DigitalOcean, LLC
+ AlterId       : 0
+ Security      : auto
+ Network       : ws
+ Path          : /vmess
+ Dynamic Path  : yourbug/vmess
+ ServiceName   : vmess-grpc
+
+ ———————————————————————————————————————————————
+ Link TLS      : vmess://eyAidiI6ICIyIiwgInBzIjogImZyZWV0cmlhbGwiLCAiYWRkIjogInRlc3Quc2VydmVycHJlbWl1bS53ZWIuaWQiLCAicG9ydCI6ICI0NDMiLCAiaWQiOiAiNWE5OTM5ZTUtMzlmMy00YWJjLWFiZjctYmYzN2RmYjdhNTkzIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi92bWVzcyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJ0ZXN0LnNlcnZlcnByZW1pdW0ud2ViLmlkIiwgInRscyI6ICJ0bHMiIH0K
+ ———————————————————————————————————————————————
+ Link WS       : vmess://eyAidiI6ICIyIiwgInBzIjogImZyZWV0cmlhbGwiLCAiYWRkIjogInRlc3Quc2VydmVycHJlbWl1bS53ZWIuaWQiLCAicG9ydCI6ICI4MCIsICJpZCI6ICI1YTk5MzllNS0zOWYzLTRhYmMtYWJmNy1iZjM3ZGZiN2E1OTMiLCAiYWlkIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3ZtZXNzIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogInRlc3Quc2VydmVycHJlbWl1bS53ZWIuaWQiLCAidGxzIjogIm5vbmUiIH0K
+ ———————————————————————————————————————————————
+ Link GRPC     : vmess://eyAidiI6ICIyIiwgInBzIjogImZyZWV0cmlhbGwiLCAiYWRkIjogInRlc3Quc2VydmVycHJlbWl1bS53ZWIuaWQiLCAicG9ydCI6ICI0NDMiLCAiaWQiOiAiNWE5OTM5ZTUtMzlmMy00YWJjLWFiZjctYmYzN2RmYjdhNTkzIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJncnBjIiwgInBhdGgiOiAidm1lc3MtZ3JwYyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJ0ZXN0LnNlcnZlcnByZW1pdW0ud2ViLmlkIiwgInRscyI6ICJ0bHMiIH0K
+ ———————————————————————————————————————————————
+ OpenClash     : https://test.serverpremium.web.id:81/vmess-freetriall.txt
+ ———————————————————————————————————————————————
+ Expiry        : 2 Day 
+ ———————————————————————————————————————————————
+ ———————————————————————————————————————————————
+          Terimakasih sudah menggunakan- 
+         Script Credit By ARISCTUNNEL V10 
+ ———————————————————————————————————————————————
+Press [ Enter ] to back on menu
