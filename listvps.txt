@@ -9,6 +9,21 @@
 
 🖥READY VPS | DISKON 20%
 
+1️⃣ 1CPU / 1GB / 25GB SSD / 1TB BW 
+• Tanpa SC : 20K 
+• SC Arisctunnel v4 : 25K 
+• SC Potato : 35K
+
+2️⃣ 1CPU / 2GB / 50GB SSD / 2TB BW 
+• Tanpa SC : 35K 
+• SC Arisctunnel v4 : 40K 
+• SC Potato : 50K
+
+3️⃣ 2CPU / 2GB / 50GB SSD / 3TB BW 
+• Tanpa SC : 45K 
+• SC Arisctunnel v4 : 50K 
+• SC Potato : 60K
+
 4️⃣ 2CPU / 4GB / 80GB SSD / 4TB BW 
 • Tanpa SC : 65K 
 • SC Arisctunnel v4 : 70K 
@@ -22,7 +37,8 @@
 • SC Pterodactyl : 100K
 
 INFORMASI GARANSI 
-- RAM 4-8 GARANSI 1x Replace
+- RAM 1 NO GARANSI
+- RAM 2-8 GARANSI 1x Replace
 
  TOS / SYARAT KETENTUAN : 
 - Dilarang CPU 100%
