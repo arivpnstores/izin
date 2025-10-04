@@ -1,21 +1,26 @@
 #!/bin/bash
-# Auto restart dari GitHub trigger
+# Remote restart by GitHub schedule
 
-REPO_URL="https://raw.githubusercontent.com/USERNAME/REPO/main/restart.flag"
-LOCAL_FLAG="/root/restart.flag"
+REPO_URL="https://raw.githubusercontent.com/arivpnstores/izin/main/restart.flag"
+LOCAL_FLAG="/usr/restart.flag"
 
-# Download file terbaru
-curl -s -o /root/latest.flag $REPO_URL
+# Ambil daftar jam dari GitHub (misal: 12,18)
+SCHEDULE=$(curl -s $REPO_URL | tr -d '\r')
+HOUR_NOW=$(date +%H)
 
-# Bandingkan dengan versi lama
-if ! cmp -s /root/latest.flag $LOCAL_FLAG; then
-    echo "Perubahan terdeteksi di GitHub — menjalankan restart..."
-    systemctl restart nginx
-    systemctl restart paradis
-    systemctl restart sketsa
-    systemctl restart drawit
-    mv /root/latest.flag $LOCAL_FLAG
+# Cek apakah jam sekarang ada di daftar dari GitHub
+if echo "$SCHEDULE" | grep -q "\b$HOUR_NOW\b"; then
+    # Cegah restart berulang dalam 1 jam
+    if [ "$(cat $LOCAL_FLAG 2>/dev/null)" != "$HOUR_NOW" ]; then
+        echo "⏰ Jam cocok ($HOUR_NOW) — menjalankan restart..."
+        systemctl restart nginx
+        systemctl restart paradis
+        systemctl restart sketsa
+        systemctl restart drawit
+        echo "$HOUR_NOW" > $LOCAL_FLAG
+    else
+        echo "Sudah restart di jam $HOUR_NOW, skip..."
+    fi
 else
-    echo "Tidak ada perubahan, skip..."
-    rm -f /root/latest.flag
+    echo "Belum waktunya restart ($HOUR_NOW)..."
 fi
