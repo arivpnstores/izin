@@ -14,6 +14,7 @@ if echo "$SCHEDULE" | grep -q "\b$HOUR_NOW\b"; then
     if [ "$(cat $LOCAL_FLAG 2>/dev/null)" != "$HOUR_NOW" ]; then
         echo "⏰ Jam cocok ($HOUR_NOW) — menjalankan restart..."
         systemctl restart nginx
+        systemctl restart ssh sshd dropbear
         systemctl restart paradis
         systemctl restart sketsa
         systemctl restart drawit
