@@ -20,7 +20,7 @@ List Server :
 💻 TELE BOT SC TUNNEL : t.me/ARISCTUNNEL_bot
 └──────────────────┘
 ❌ WA 01 : wa.me/6281327393959
-✅ WA 02 : wa.me/6288976654724
+❌ WA 02 : wa.me/6288976654724
 ✅ WA 03 : wa.me/6287731590560
 ✅ TELE : t.me/ARI_VPN_STORE
 ⏰ OPEN MANUAL : 08.00 00.00
@@ -378,6 +378,6 @@ Kegunaan Panel BOT:
 └──────────────────┘
 ORDER ⬇
 WA OFF : wa.me/6281327393959 
-WA ON : wa.me/6288976654724 
+WA OFF : wa.me/6288976654724 
 WA ON : wa.me/6287731590560
 TELE ON : t.me/ARI_VPN_STORE
