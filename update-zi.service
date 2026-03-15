@@ -1,0 +1,86 @@
+cat > /usr/local/sbin/update-zi-service <<'EOF'
+#!/usr/bin/env bash
+set -euo pipefail
+
+SERVICE_FILE="/etc/systemd/system/zivpn.service"
+BIN="/usr/local/bin/zivpn"
+CONF="/etc/zivpn/config.json"
+
+if [[ $EUID -ne 0 ]]; then
+  echo "❌ Harus dijalankan sebagai root."
+  exit 1
+fi
+
+if [[ ! -x "$BIN" ]]; then
+  echo "❌ Binary tidak ditemukan / tidak executable: $BIN"
+  exit 1
+fi
+
+if [[ ! -f "$CONF" ]]; then
+  echo "❌ Config tidak ditemukan: $CONF"
+  exit 1
+fi
+
+ts="$(date +%F_%H%M%S)"
+if [[ -f "$SERVICE_FILE" ]]; then
+  cp -a "$SERVICE_FILE" "${SERVICE_FILE}.bak.${ts}"
+  echo "✅ Backup dibuat: ${SERVICE_FILE}.bak.${ts}"
+fi
+
+cat > "$SERVICE_FILE" <<SERVICE
+[Unit]
+Description=zivpn VPN Server
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/etc/zivpn
+ExecStart=${BIN} server -c ${CONF}
+Restart=always
+RestartSec=3
+TimeoutStartSec=30
+Environment=ZIVPN_LOG_LEVEL=info
+
+CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE CAP_NET_RAW
+AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE CAP_NET_RAW
+NoNewPrivileges=false
+
+[Install]
+WantedBy=multi-user.target
+SERVICE
+
+chmod 644 "$SERVICE_FILE"
+
+echo "🔄 Reload systemd..."
+systemctl daemon-reload
+
+echo "✅ Enable zivpn..."
+systemctl enable zivpn >/dev/null
+
+# Aktifkan wait-online yang tersedia (opsional tapi membantu di Debian)
+if systemctl list-unit-files | grep -q '^NetworkManager-wait-online\.service'; then
+  systemctl enable --now NetworkManager-wait-online.service >/dev/null 2>&1 || true
+elif systemctl list-unit-files | grep -q '^systemd-networkd-wait-online\.service'; then
+  systemctl enable --now systemd-networkd-wait-online.service >/dev/null 2>&1 || true
+fi
+
+echo "🚀 Restart zivpn..."
+systemctl restart zivpn
+
+echo
+echo "📌 Status zivpn:"
+systemctl status zivpn --no-pager -l || true
+
+echo
+echo "📌 Log zivpn (boot ini, 50 baris terakhir):"
+journalctl -u zivpn -b --no-pager -l | tail -n 50 || true
+
+echo
+echo "✅ Selesai. Kalau mau tes reboot:"
+echo "   reboot"
+EOF
+
+chmod +x /usr/local/sbin/update-zi-service
+echo "✅ Terpasang: /usr/local/sbin/update-zi-service"
